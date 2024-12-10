@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+</head>
+<body>
+    <main>
+        <article class="tidtagarur">
+
+            <section class="urtavla">
+                <!-- hur märker man upp en sån här semantiskt? -->
+                <div class="tid t1"></div>
+                <div class="tid t2"></div>
+                <div class="tid t3"></div>
+                <div class="tid t4"></div>
+                <div class="tid t5"></div>
+                <div class="tid t6"></div>
+                <div class="tid t7"></div>
+                <div class="tid t8"></div>
+                <div class="tid t9"></div>
+                <div class="tid t10"></div>
+                <div class="tid t11"></div>
+                <div class="tid t12"></div>
+
+                <div class="visare minut-visare"></div>
+                <div class="visare sekund-visare"></div>
+
+                <div class="urtavla-center"></div>
+
+            </section>
+
+            <section class="start-stop-panel">
+                <!-- <time datetime="PT2H30M">2h 30m</time> -->
+                <label>
+                    <input id="starta" name="panel" type="radio" />
+                    Start
+                </label>
+                
+                <label>
+                    <input id="pausa" name="panel" type="radio" />
+                    Paus
+                </label>
+
+                <label>
+                    <input id="stoppa" name="panel" type="radio" />
+                    Nollställ
+                </label>
+              
+            </section>
+
+
+        </article>
+
+    </main>
+<!-- 
+    
+INSPIRATION:
+ 
+https://codepen.io/simonschiller/pen/ZeeVOr
+https://css-tricks.com/of-course-we-can-make-a-css-only-clock-that-tells-the-current-time/
+
+
+-->
+</body>
+</html>
